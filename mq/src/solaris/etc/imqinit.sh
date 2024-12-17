@@ -310,6 +310,9 @@ do
   fi
 done
 
+imq_javahome=${imq_javahome%\"}
+imq_javahome=${imq_javahome#\"}
+
 if [ -z "$imq_javahome" ]; then
    imq_javahome=`which java | grep java | sed -e "s/bin\/java//"`	
    if [ -z "$imq_javahome" ] ; then
