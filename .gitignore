@@ -5,3 +5,5 @@ pom.xml.versionsBackup
 ### Other ###
 *.class
 
+.idea/
+**.iml
