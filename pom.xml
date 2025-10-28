@@ -22,7 +22,7 @@
 
     <groupId>org.glassfish.mq</groupId>
     <artifactId>project</artifactId>
-    <version>6.7.0</version>
+    <version>6.7.0.payara-p1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>MQ Parent Project</name>
