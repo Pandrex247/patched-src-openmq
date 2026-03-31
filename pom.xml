@@ -22,7 +22,7 @@
 
     <groupId>org.glassfish.mq</groupId>
     <artifactId>project</artifactId>
-    <version>6.8.0.payara-p1-SNAPSHOT</version>
+    <version>6.8.0.payara-p2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>MQ Parent Project</name>
@@ -69,7 +69,7 @@
     </mailingLists>
 
     <modules>
-        <module>docs</module>
+<!--        <module>docs</module>-->
         <module>mq/main</module>
         <module>mq/distribution</module>
     </modules>
